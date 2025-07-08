@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  monitor:
+    build: .
+    volumes:
+      - ./configs:/app/configs
+    ports:
+      - "8080:8080"

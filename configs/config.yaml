@@ -1,0 +1,10 @@
+interval_seconds: 60
+telegram_token: "7685073050:AAEDOapBrSWHyQNk0pCx5qm2D12rXpeG7SM"
+telegram_chat_id: 814759853
+targets:
+  - name: "Google"
+    url: "https://google.com"
+  - name: "GitHub"
+    url: "https://github.com"
+  - name: "Fake Site"
+    url: "https://nonexistent.abc12345.com"   # нарочно несуществующий сайт
